@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/mob-nav.css">
+    <link rel="stylesheet" href="CSS/bottom.css">
+
+
+    <title>pagination</title>
+</head>
+
+<body>
+
+    <div class='row__div'>
+        <div class='double__one__column'>
+            <div class='left__col'>
+                <p class="para">Renders Left </p>
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%"
+                        aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"> </div>
+                    <span> 23</span>
+                </div>
+                <p>Click To Add Unlimited Render</p>
+            </div>
+        </div>
+        <div class='column__cl'>
+            <div class='right__col'>
+
+                <img src="./Assets/notification 1.png" alt="">
+                <p class="text__pr">Hi, please renew your plan . will show you some customize plans. </p>
+                <p class="para1">Renders Left </p>
+            </div>
+        </div>
+    </div>
+    <!-- Mobile Navbar  -->
+    <section class="mob-nav-section">
+        <div class="containers">
+            <div id="sidebar">
+                <ul>
+                    <li> <a href="#"><img id="on__img" src="./Assets/Rectangle 91.png" alt=""></a>
+                    </li>
+                    <li><a href="#">
+                            <svg class="new__con" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                            </svg>
+                        </a></li>
+                    <li><a href="client.html"><svg class="new__con" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                viewBox="0 0 20 20" fill="currentColor">
+                                <path
+                                    d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
+                            </svg></a></li>
+                    <li><a href="pagination.html"><svg class="new__con" xmlns="http://www.w3.org/2000/svg"
+                                class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                <path
+                                    d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
+                            </svg></a></li>
+                    <li><a href="#"><svg class="new__con" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M8 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z" />
+                                <path
+                                    d="M6 3a2 2 0 00-2 2v11a2 2 0 002 2h8a2 2 0 002-2V5a2 2 0 00-2-2 3 3 0 01-3 3H9a3 3 0 01-3-3z" />
+                            </svg></a></li>
+                    <li><a href="#"><svg class="new__con" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z"
+                                    clip-rule="evenodd" />
+                            </svg></a></li>
+                    <li><a href="#"><svg class="new__con" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd"
+                                    d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                    clip-rule="evenodd" />
+                            </svg></a></li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <div class="swipe-area"></div>
+                <a href="#" data-toggle=".containers" id="sidebar-toggle"> <span class="bar"></span> <span
+                        class="bar"></span>
+                    <span class="bar"></span> </a>
+                <div class="content">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <header>
+        <div class='row__aside'>
+            <div class='double__column__aside'>
+                <div class='bl__aside__column'>
+                    <div class="nav__st">
+                        <ul>
+                            <li> <a href="#"><img id="on__img" src="./Assets/Rectangle 91.png" alt=""></a>
+                            </li>
+                            <li><a class="menu " href="index.html">
+                                    <svg class="new__con" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5"
+                                        viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+                                    </svg>
+                                    <span class="no"><i class="fas fa-circle"></i></span>
+                                </a></li>
+                            <li><a class="menu" href="#"><svg class="new__con" xmlns="http://www.w3.org/2000/svg"
+                                        class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path
+                                            d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
+                                    </svg></a></li>
+                            <li><a class="menu actives" href="pagination.html"><svg class="new__con"
+                                        xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20"
+                                        fill="currentColor">
+                                        <path
+                                            d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
+                                    </svg>
+                                    <span class="no"><i class="fas fa-circle"></i></span>
+                                </a></li>
+                            <li><a class="menu" href="#"><svg class="new__con" xmlns="http://www.w3.org/2000/svg"
+                                        class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path d="M8 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z" />
+                                        <path
+                                            d="M6 3a2 2 0 00-2 2v11a2 2 0 002 2h8a2 2 0 002-2V5a2 2 0 00-2-2 3 3 0 01-3 3H9a3 3 0 01-3-3z" />
+                                    </svg></a></li>
+                            <li><a class="menu" href="#"><svg class="new__con" xmlns="http://www.w3.org/2000/svg"
+                                        class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z"
+                                            clip-rule="evenodd" />
+                                    </svg></a></li>
+                            <li><a class="menu" href="#"><svg class="new__con" xmlns="http://www.w3.org/2000/svg"
+                                        class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd"
+                                            d="M11.49 3.17c-.38-1.56-2.6-1.56-2.98 0a1.532 1.532 0 01-2.286.948c-1.372-.836-2.942.734-2.106 2.106.54.886.061 2.042-.947 2.287-1.561.379-1.561 2.6 0 2.978a1.532 1.532 0 01.947 2.287c-.836 1.372.734 2.942 2.106 2.106a1.532 1.532 0 012.287.947c.379 1.561 2.6 1.561 2.978 0a1.533 1.533 0 012.287-.947c1.372.836 2.942-.734 2.106-2.106a1.533 1.533 0 01.947-2.287c1.561-.379 1.561-2.6 0-2.978a1.532 1.532 0 01-.947-2.287c.836-1.372-.734-2.942-2.106-2.106a1.532 1.532 0 01-2.287-.947zM10 13a3 3 0 100-6 3 3 0 000 6z"
+                                            clip-rule="evenodd" />
+                                    </svg></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class='column__aside'>
+                <div class='bl__aside__column__right'>
+
+                    <ul id="example">
+                        <div class="container grid-wrapper-sm">
+                            <div class="gr__one">
+                                <div class="gr__in one__gr">
+                                    <span> Search By Name</span>
+                                    <div class="pseudo-search">
+                                        <input type="text" placeholder="Search" autofocus required>
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                </div>
+                                <div class="gr__in one__gr1">
+                                    <span> Search By Date</span>
+                                    <div class="pseudo-search">
+                                        <input type="text" placeholder="YYYY-MM-DD" autofocus required>
+                                        <i class="fa fa-search"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <li>
+                            <div class="container grid-wrapper-sm">
+                                <div class="grid-sm-cards">
+                                    <!-- grid one -->
+                                    <div class="grid-sm-col-lg">
+                                        <p class="mt-1 text__one">Fire Logo (ID : 1002)</p>
+                                        <p class="text__one1">Added Date : 2021-09-20</p>
+                                        <img class="img__one" src="./Assets/Untitled (19).png" alt="">
+                                   
+                                        <div class="tag">
+                                            <div class="tag_gr br_border">
+                                                <img src="./Assets/trophy (2) 1.png" alt="">
+                                            </div>
+                                            <div class="tag_gr mr_margin">
+                                                <p>Club Template</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- grid one -->
+                                    <!-- grid-two -->
+                                    <div class="grid-sm-col-lg">
+                                        <p class="mt-1 text__one">Fire Logo (ID : 1002)</p>
+                                        <p class="text__one1">Added Date : 2021-09-20</p>
+                                        <img class="img__one" src="./Assets/Untitled (19).png" alt="">
+                                       
+                                        <div class="tag tag2">
+                                            <div class="tag_gr br_border">
+                                                <img src="./Assets/unlocked 1.png" alt="">
+                                            </div>
+                                            <div class="tag_gr mr_margin">
+                                                <p>Available Template</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- grid-two -->
+                                    <!-- 3rd -->
+                                    <div class="grid-sm-col-lg">
+                                        <p class="mt-1 text__one">Fire Logo (ID : 1002)</p>
+                                        <p class="text__one1">Added Date : 2021-09-20</p>
+                                        <img class="img__one" src="./Assets/Untitled (19).png" alt="">
+                                       
+                                        <div class="tag">
+                                            <div class="tag_gr br_border">
+                                                <img src="./Assets/trophy (2) 1.png" alt="">
+                                            </div>
+                                            <div class="tag_gr mr_margin">
+                                                <p>Club Template</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 3rd -->
+                                    <!-- 4th -->
+                                    <div class="grid-sm-col-lg">
+                                        <p class="mt-1 text__one">Fire Logo (ID : 1002)</p>
+                                        <p class="text__one1">Added Date : 2021-09-20</p>
+                                        <img class="img__one" src="./Assets/Untitled (19).png" alt="">
+                                     
+                                        <div class="tag tag2">
+                                            <div class="tag_gr br_border">
+                                                <img src="./Assets/unlocked 1.png" alt="">
+                                            </div>
+                                            <div class="tag_gr mr_margin">
+                                                <p>Available Template</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 4th -->
+                                    <!-- 5th -->
+                                    <div class="grid-sm-col-lg">
+                                        <p class="mt-1 text__one">Fire Logo (ID : 1002)</p>
+                                        <p class="text__one1">Added Date : 2021-09-20</p>
+                                        <img class="img__one" src="./Assets/Untitled (19).png" alt="">
+                                     
+                                        <div class="tag tag2">
+                                            <div class="tag_gr br_border"><img src="./Assets/unlocked 1.png" alt="">
+                                            </div>
+
+                                            <div class="tag_gr mr_margin">
+                                                <p>Available Template</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 5th -->
+                                    <!-- another 5 -->
+                                    <!-- ls -->
+                                    <!-- grid one -->
+                                    <div class="grid-sm-col-lg">
+                                        <p class="mt-1 text__one">Fire Logo (ID : 1002)</p>
+                                        <p class="text__one1">Added Date : 2021-09-20</p>
+                                        <img class="img__one" src="./Assets/Untitled (19).png" alt="">
+                                    
+                                        <div class="tag tag2">
+                                            <div class="tag_gr br_border"> <img src="./Assets/unlocked 1.png" alt="">
+                                            </div>
+
+                                            <div class="tag_gr mr_margin">
+                                                <p>Available Template</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- grid one -->
+                                    <!-- grid-two -->
+                                    <div class="grid-sm-col-lg">
+                                        <p class="mt-1 text__one">Fire Logo (ID : 1002)</p>
+                                        <p class="text__one1">Added Date : 2021-09-20</p>
+                                        <img class="img__one" src="./Assets/Untitled (19).png" alt="">
+                                  
+                                        <div class="tag">
+                                            <div class="tag_gr br_border"><img src="./Assets/trophy (2) 1.png" alt="">
+                                            </div>
+
+                                            <div class="tag_gr mr_margin">
+                                                <p>Club Template</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- grid-two -->
+                                    <!-- 3rd -->
+                                    <div class="grid-sm-col-lg">
+                                        <p class="mt-1 text__one">Fire Logo (ID : 1002)</p>
+                                        <p class="text__one1">Added Date : 2021-09-20</p>
+                                        <img class="img__one" src="./Assets/Untitled (19).png" alt="">
+                                 
+                                        <div class="tag tag2">
+                                            <div class="tag_gr br_border"><img src="./Assets/unlocked 1.png" alt="">
+                                            </div>
+
+
+                                            <div class="tag_gr mr_margin">
+                                                <p>Available Template</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 3rd -->
+                                    <!-- 4th -->
+                                    <div class="grid-sm-col-lg">
+                                        <p class="mt-1 text__one">Fire Logo (ID : 1002)</p>
+                                        <p class="text__one1">Added Date : 2021-09-20</p>
+                                        <img class="img__one" src="./Assets/Untitled (19).png" alt="">
+                                    
+                                        <div class="tag tag2">
+                                            <div class="tag_gr br_border"> <img src="./Assets/unlocked 1.png" alt="">
+                                            </div>
+
+                                            <div class="tag_gr mr_margin">
+                                                <p>Available Template</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 4th -->
+                                    <!-- 5th -->
+                                    <div class="grid-sm-col-lg">
+                                        <p class="mt-1 text__one">Fire Logo (ID : 1002)</p>
+                                        <p class="text__one1">Added Date : 2021-09-20</p>
+                                        <img class="img__one" src="./Assets/Untitled (19).png" alt="">
+                                    
+                                        <div class="tag">
+                                            <div class="tag_gr br_border"> <img src="./Assets/trophy (2) 1.png" alt="">
+                                            </div>
+
+                                            <div class="tag_gr mr_margin">
+                                                <p>Club Template</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 5th -->
+                                    <!-- another 5 -->
+                                    <!-- grid one -->
+                                    <div class="grid-sm-col-lg">
+                                        <p class="mt-1 text__one">Fire Logo (ID : 1002)</p>
+                                        <p class="text__one1">Added Date : 2021-09-20</p>
+                                        <img class="img__one" src="./Assets/Untitled (19).png" alt="">
+                                      
+                                        <div class="tag tag2">
+                                            <div class="tag_gr br_border"> <img src="./Assets/unlocked 1.png" alt="">
+                                            </div>
+
+                                            <div class="tag_gr mr_margin">
+                                                <p>Available Template</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- grid one -->
+                                    <!-- grid-two -->
+                                    <div class="grid-sm-col-lg">
+                                        <p class="mt-1 text__one">Fire Logo (ID : 1002)</p>
+                                        <p class="text__one1">Added Date : 2021-09-20</p>
+                                        <img class="img__one" src="./Assets/Untitled (19).png" alt="">
+                                     
+                                        <div class="tag tag2">
+                                            <div class="tag_gr br_border"><img src="./Assets/unlocked 1.png" alt="">
+                                            </div>
+                                            <div class="tag_gr mr_margin">
+                                                <p>Available Template</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- grid-two -->
+                                    <!-- 3rd -->
+                                    <div class="grid-sm-col-lg">
+                                        <p class="mt-1 text__one">Fire Logo (ID : 1002)</p>
+                                        <p class="text__one1">Added Date : 2021-09-20</p>
+                                        <img class="img__one" src="./Assets/Untitled (19).png" alt="">
+                                       
+                                        <div class="tag">
+                                       <div  class="tag_gr br_border"><img src="./Assets/trophy (2) 1.png" alt=""></div>
+                                         <div  class="tag_gr mr_margin"><p>Club Template</p></div>
+                                        </div>
+                                    </div>
+                                    <!-- 3rd -->
+                                    <!-- 4th -->
+                                    <div class="grid-sm-col-lg">
+                                        <p class="mt-1 text__one">Fire Logo (ID : 1002)</p>
+                                        <p class="text__one1">Added Date : 2021-09-20</p>
+                                        <img class="img__one" src="./Assets/Untitled (19).png" alt="">
+                                     
+                                        <div class="tag">
+                                        <div class="tag_gr br_border"><img src="./Assets/trophy (2) 1.png" alt=""></div> 
+                                       <div   class="tag_gr mr_margin"><p>Club Template</p></div>
+                                        </div>
+                                    </div>
+                                    <!-- 4th -->
+                                    <!-- 5th -->
+                                    <div class="grid-sm-col-lg">
+                                        <p class="mt-1 text__one">Fire Logo (ID : 1002)</p>
+                                        <p class="text__one1">Added Date : 2021-09-20</p>
+                                        <img class="img__one" src="./Assets/Untitled (19).png" alt="">
+                                   
+                                        <div class="tag tag2">
+                                    <div class="tag_gr br_border"><img src="./Assets/unlocked 1.png" alt=""></div>
+                                        <div  class="tag_gr mr_margin"><p>Available Template</p></div>
+                                        </div>
+                                    </div>
+                                    <!-- 5th -->
+                                    <!-- ls -->
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                        </li>
+                        <li>
+
+                        </li>
+                        <li>
+
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script>
+        $(function ($) {
+            let url = window.location.href;
+            $('nav ul li a').each(function () {
+                if (this.href === url) {
+                    $(this).addClass('actives');
+                }
+            });
+        });
+    </script>
+
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
+
+    <script src="./JS/Mob-nav.js"></script>
+    <script src="./JS/pagination.js"></script>
+    <script>
+        //call paginate
+        $('#example').paginate();
+    </script>
+</body>
+
+</html>
